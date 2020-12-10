@@ -1,6 +1,6 @@
-var i = 3;
+var i = 0;
 
 setInterval(() => {
     console.log("Hello Again World #: ", i);
-    i++;
-}, 1000);
+    i+=2;
+}, 2000);
