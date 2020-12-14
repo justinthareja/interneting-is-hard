@@ -19,13 +19,7 @@ function vowelCount(string = []) {
     });
 
     return counter;
-}
-
-// Top Solution:
-// function getCount(str) {
-//     return (str.match(/[aeiou]/ig)||[]).length;
-// }
-  
+}  
 
 console.log(vowelCount('heyo maggots'), 'should equal 4');
 console.log(vowelCount('looooooong word including spaces'), 'should equal 13');
