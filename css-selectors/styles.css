@@ -4,7 +4,7 @@
     box-sizing: border-box;
 } */
 
-p:first-of-type {
+.page > p:first-of-type {
     color: #7E8184;
     font-style: italic;
 }
@@ -46,6 +46,10 @@ p:last-of-type {
     background-color: #5995da;
 }
 
+#button-2 {
+    background-color: red;
+}
+
 .call-to-action:link,
 .call-to-action:visited {
     background-color: rgb(221, 191, 55);
@@ -61,6 +65,7 @@ p:last-of-type {
 .call-to-action:visited:active {
     background-color:rgba(221, 191, 55);
 }
+
 
 .page {
     width: 600px;
